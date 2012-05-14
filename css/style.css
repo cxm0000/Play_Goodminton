@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	background-image: url("../img/badminton.jpg");
+	background-attachment: fixed;
+    background-color: #FFFFFF;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+ul {
+	border: 1px solid #ccc;
+	padding: 2px;
+	width: 240px;
+	list-style-type: none;
+	background-color: #fff;
+}
+
+ul li {
+	background-color: #eee;
+	border:1px dashed gray;
+	margin: 3px 0;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+hr {
+	border: 0;
+	background-color: #000;
+	height: 1px;
+}
+
+small {
+	font-size: 7pt;
+}
+
+.clear_both {
+	clear: both;
+}
+
+.clear_right {
+	clear: right;
+}
+
+#left, #right {
+	float:left;
+	margin: 15px 10px;
+}
+
+#response {
+	height: 30px;
+}
+
+.tabNavigation {
+	height: 40px;
+	width: 100%;
+	clear: both;
+	border: none;
+	border-bottom: #000;
+	background: transparent;
+}
+
+.tabNavigation li{
+	float: left;
+	margin: 0 2px;
+	padding: 3px 5px;
+}
+
+.tabs {
+	padding: 3px 5px;
+}
+
+#bgLayer {
+	width: 600px;
+	margin: 150px auto 0 auto;
+	border:5px solid #eee;
+/*
+	background:#000;
+	filter: alpha(opacity=50);
+	-khtml-opacity: 0.5;
+	-ms-filter: Òalpha(opacity=50)Ó;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+*/
+
+}
+
+form {
+	margin-top: 20px;
+}
+
+input, textarea {
+	clear: both;
+	display: block;
+	margin: 6px 0;
+	padding: 5px 3px;
+	border-color: #96A6C5;
+	widows: 300px;
+}
+
+input:required {
+/* 	border: 1px dashed #f00; */
+}
+
+.selected {
+	background-color: Yellow;
+	color: Black;
+}
+
+#toInvite {
+	min-height: 600px;
+}
